@@ -1,5 +1,5 @@
 import React from 'react';
-import { FaGithub, FaLinkedin } from "react-icons/fa";
+import { FaGithub, FaLinkedin, FaInstagram} from "react-icons/fa";
 import { HiOutlineMail } from "react-icons/hi";
 import { BsFillPersonLinesFill } from "react-icons/bs";
 
@@ -12,7 +12,7 @@ function SocialLinks() {
           LinkedIn <FaLinkedin size={30} />
         </>
       ),
-      href: "https://linkedin.com",
+      href: "https://www.linkedin.com/in/franz-toledo-181a70280/",
       style: "rounded-tr-md",
     },
     {
@@ -22,16 +22,16 @@ function SocialLinks() {
           GitHub <FaGithub size={30} />
         </>
       ),
-      href: "https://github.com/theyashpatel",
+      href: "https://github.com/franztoledo",
     },
     {
       id: 3,
       child: (
         <>
-          Mail <HiOutlineMail size={30} />
+          Instagram <FaInstagram size={30} />
         </>
       ),
-      href: "mailto:foo@gmail.com",
+      href: "https://www.instagram.com/franz.toledo.04/",
     },
     {
       id: 4,
@@ -40,7 +40,7 @@ function SocialLinks() {
           Resume <BsFillPersonLinesFill size={30} />
         </>
       ),
-      href: "/resume.pdf",
+      href: "",
       style: "rounded-br-md",
       download: true,
     },
