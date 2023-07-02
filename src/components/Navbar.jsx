@@ -2,6 +2,7 @@ import React from 'react'
 import { FaBars, FaTimes } from "react-icons/fa";
 
 function Navbar() {
+  
   const links = [
     {
       id: 1,
@@ -30,7 +31,7 @@ function Navbar() {
         <h1 className='text-4xl font-signature ml-2 tracking-widest leading-3'>My Portfolio</h1>
       </div>
 
-      <ul className='flex'>
+      <ul className='hidden md:flex'>
         {links.map(({ id, link }) => (
           <li
             key={id}
@@ -40,6 +41,10 @@ function Navbar() {
           </li>
         ))}
       </ul>
+      <div className="cursor-pointer pr-4 z-10 text-gray-500 md:hidden">
+        <FaBars size={30}/>
+      </div>
+
     </div>
   )
 }
