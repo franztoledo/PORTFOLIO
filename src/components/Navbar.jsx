@@ -1,8 +1,8 @@
-import React from 'react'
+import React, { useState } from 'react'
 import { FaBars, FaTimes } from "react-icons/fa";
 
 function Navbar() {
-  
+  const [nav, setNav] = useState(false);
   const links = [
     {
       id: 1,
