@@ -1,4 +1,5 @@
 import React from 'react'
+import { Card } from './Card';
 
 
 
@@ -8,6 +9,7 @@ function Portfolio() {
       id:1,
       title: "SOCIAL MEDIA CLONE",
       des:" Lorem, ipsum dolor sit amet consectetur adipisicing elit",
+      img:'',
       srcgit:'',
       srcweb:''
     },
@@ -15,6 +17,7 @@ function Portfolio() {
       id:2,
       title: "SOCIAL MEDIA CLONE",
       des:" Lorem, ipsum dolor sit amet consectetur adipisicing elit",
+      img:'',
       srcgit:'',
       srcweb:''
     },
@@ -22,6 +25,7 @@ function Portfolio() {
       id:3,
       title: "SOCIAL MEDIA CLONE",
       des:" Lorem, ipsum dolor sit amet consectetur adipisicing elit",
+      img:'',
       srcgit:'',
       srcweb:''
     },
@@ -29,6 +33,7 @@ function Portfolio() {
       id:4,
       title: "SOCIAL MEDIA CLONE",
       des:" Lorem, ipsum dolor sit amet consectetur adipisicing elit",
+      img:'',
       srcgit:'',
       srcweb:''
     },
@@ -36,6 +41,7 @@ function Portfolio() {
       id:5,
       title: "SOCIAL MEDIA CLONE",
       des:" Lorem, ipsum dolor sit amet consectetur adipisicing elit",
+      img:'',
       srcgit:'',
       srcweb:''
     },
@@ -54,8 +60,8 @@ function Portfolio() {
         </div>
       </div>
       <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 xl:gap-14 p-4">
-        {projects.map(({ id, title, des, srcgit,srcweb})=>(
-          <div>{title}</div>
+        {projects.map(({ id, title, des, srcgit,srcweb,img})=>(
+          <Card key={id} title={title} des={des} git={srcgit} demo={srcweb} img={img}/>
         ))}
       </div>
     </section>
