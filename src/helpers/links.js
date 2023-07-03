@@ -10,6 +10,9 @@ const links = [
         LinkedIn <FaLinkedin size={30} />
       </>
     ),
+    childVar:(
+       <FaLinkedin size={30} />
+    ),
     href: "https://www.linkedin.com/in/franz-toledo-181a70280/",
     style: "rounded-tr-md",
   },
@@ -20,6 +23,9 @@ const links = [
         GitHub <FaGithub size={30} />
       </>
     ),
+    childVar:(
+      <FaGithub size={30} />
+   ),
     href: "https://github.com/franztoledo",
   },
   {
@@ -29,6 +35,9 @@ const links = [
         Instagram <FaInstagram size={30} />
       </>
     ),
+    childVar:(
+      <FaInstagram size={30} />
+   ),
     href: "https://www.instagram.com/franz.toledo.04/",
     style: "rounded-br-md"
   },
