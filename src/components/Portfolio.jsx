@@ -50,7 +50,7 @@ function Portfolio() {
   return (
     <section
       id="projects"
-      className=" h-screen bg-gradient-to-b from-black via-black to-gray-800 w-full px-5 md:px-20 text-white"
+      className=" bg-gradient-to-b from-black via-black to-gray-800 w-full px-5 md:px-20 text-white"
     >
       <div className="flex  items-center text-center p-4">
         <div className="pb-8">
@@ -59,7 +59,7 @@ function Portfolio() {
           </p>
         </div>
       </div>
-      <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 xl:gap-14 p-4">
+      <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 xl:gap-14 p-4 px-1 sm:px-12 ">
         {projects.map(({ id, title, des, srcgit,srcweb,img})=>(
           <Card key={id} title={title} des={des} git={srcgit} demo={srcweb} img={img}/>
         ))}
