@@ -1,6 +1,6 @@
 import React from 'react'
 import { Card } from './Card';
-
+import PokeVIte from '../assets/PokeVite.jpg'
 
 
 function Portfolio() {
@@ -9,16 +9,16 @@ function Portfolio() {
       id:1,
       title: "SOCIAL MEDIA CLONE",
       des:" Lorem, ipsum dolor sit amet consectetur adipisicing elit",
-      img:'',
-      srcgit:'https://github.com/grovertoledo/portfolio/blob/main/components/Contact/index.tsx',
-      srcweb:'https://github.com/grovertoledo/portfolio/blob/main/components/Contact/index.tsx',
+      img: PokeVIte,
+      srcgit:'https://github.com/',
+      srcweb:'https://github.com/',
       style: "shadow-gray-400",
     },
     {
       id:2,
       title: "SOCIAL MEDIA CLONE",
       des:" Lorem, ipsum dolor sit amet consectetur adipisicing elit",
-      img:'',
+      img: PokeVIte,
       srcgit:'',
       srcweb:'',
       style: "shadow-yellow-500",
@@ -27,7 +27,7 @@ function Portfolio() {
       id:3,
       title: "SOCIAL MEDIA CLONE",
       des:" Lorem, ipsum dolor sit amet consectetur adipisicing elit",
-      img:'',
+      img: PokeVIte,
       srcgit:'',
       srcweb:'',
       style: "shadow-sky-400",
@@ -36,7 +36,7 @@ function Portfolio() {
       id:4,
       title: "SOCIAL MEDIA CLONE",
       des:" Lorem, ipsum dolor sit amet consectetur adipisicing elit",
-      img:'',
+      img: PokeVIte,
       srcgit:'',
       srcweb:'',
       style: "shadow-blue-600",
@@ -45,7 +45,7 @@ function Portfolio() {
       id:5,
       title: "SOCIAL MEDIA CLONE",
       des:" Lorem, ipsum dolor sit amet consectetur adipisicing elit",
-      img:'',
+      img: PokeVIte,
       srcgit:'',
       srcweb:'',
       style: "shadow-orange-500",
