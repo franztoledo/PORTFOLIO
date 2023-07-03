@@ -54,6 +54,7 @@ function Portfolio() {
   ]
   return (
     <section
+      name="portfolio"
       id="projects"
       className=" bg-gradient-to-b from-black via-black to-gray-800 w-full px-5 md:px-20 text-white mx-auto"
     >
