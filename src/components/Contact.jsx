@@ -1,4 +1,7 @@
 import React from 'react'
+import { FaPhoneAlt } from 'react-icons/fa'
+import {TbMapPinFilled} from 'react-icons/tb'
+import { GrMail} from 'react-icons/gr'
 
 function Contact() {
   return (
@@ -13,7 +16,22 @@ function Contact() {
           </p>
           <p className="py-6">Submit the form below to get in touch with me</p>
         </div>
+        <div className='space-y-10 mb-8 pb-6'>
+          <div className='flex items-center space-x-5 justify-center'>
+            <FaPhoneAlt className='text-sky-300 h-5 w-5 md:h-7 md:w-7 animate-pulse'/>
+            <p className=' text-lg md:text-xl'>+51 935565755</p>
+          </div>
+              
+          <div className='flex items-center space-x-5 justify-center'>
+            <GrMail className=' text-sky-300 h-5 w-5 md:h-7 md:w-7 animate-pulse'/>
+            <p className='text-lg md:text-xl'>franz.wilber.tm@gmail.com</p>
+            </div>
 
+          <div className='flex items-center space-x-5 justify-center'>
+            <TbMapPinFilled className='text-sky-300 h-5 w-5 md:h-7 md:w-7 animate-pulse'/>
+            <p className='text-lg md:text-xl'>Lima, Peru</p>
+          </div>
+        </div>
         <div className=" flex justify-center items-center">
           <form
             action="https://getform.io/f/87436779-7771-48d0-9374-df0d5694939f"
