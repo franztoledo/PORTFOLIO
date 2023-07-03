@@ -1,49 +1,8 @@
 import React from 'react';
-import { FaGithub, FaLinkedin, FaInstagram} from "react-icons/fa";
-import { BsFillPersonLinesFill } from "react-icons/bs";
+import { links } from '../helpers/links.js';
 
 function SocialLinks() {
-  const links = [
-    {
-      id: 1,
-      child: (
-        <>
-          LinkedIn <FaLinkedin size={30} />
-        </>
-      ),
-      href: "https://www.linkedin.com/in/franz-toledo-181a70280/",
-      style: "rounded-tr-md",
-    },
-    {
-      id: 2,
-      child: (
-        <>
-          GitHub <FaGithub size={30} />
-        </>
-      ),
-      href: "https://github.com/franztoledo",
-    },
-    {
-      id: 3,
-      child: (
-        <>
-          Instagram <FaInstagram size={30} />
-        </>
-      ),
-      href: "https://www.instagram.com/franz.toledo.04/",
-    },
-    {
-      id: 4,
-      child: (
-        <>
-          Resume <BsFillPersonLinesFill size={30} />
-        </>
-      ),
-      href: "",
-      style: "rounded-br-md",
-      download: true,
-    },
-  ];
+  
   return (
     <div className="hidden lg:flex flex-col top-[35%] left-0 fixed">
       <ul>
