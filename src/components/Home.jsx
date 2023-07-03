@@ -1,6 +1,7 @@
 import React from 'react'
 import HeroImage from '../assets/heroimage2.jpg'
 import { MdOutlineKeyboardArrowRight } from "react-icons/md";
+import { Link } from 'react-scroll';
 function Home() {
   return (
     <div
@@ -20,7 +21,9 @@ function Home() {
           <h2 className="text-4xl md:text-7xl font-bold text-white text-center">I'm a Fronted Developer</h2>
           <p className="text-gray-500 py-4">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusamus at aut ea facilis laborum corrupti nihil iure, sit incidunt provident quaerat minus nesciunt neque eius ab beatae. Odio, amet cum.</p>
           <div>
-            <button
+            <Link
+              to="portfolio"
+              smooth
               duration={500}
               className="group text-white w-fit px-6 py-3 my-2 mx-auto flex items-center rounded-md bg-gradient-to-r from-cyan-500 to-blue-500 cursor-pointer"
             >
@@ -28,7 +31,7 @@ function Home() {
               <span className="group-hover:rotate-90 duration-300">
                 <MdOutlineKeyboardArrowRight size={25} className="ml-1" />
               </span>
-            </button>
+            </Link>
           </div>
         </div>
         

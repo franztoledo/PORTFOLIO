@@ -7,7 +7,7 @@ function Contact() {
   return (
     <div
       name="contact"
-      className="w-full px-5 md:px-20 bg-gradient-to-b from-black to-gray-800 p-4 text-white"
+      className="w-full px-5 md:px-20 bg-gradient-to-b from-black to-gray-800 p-4 text-white pt-20"
     >
       <div className="flex flex-col p-4 justify-center max-w-screen-lg mx-auto h-full">
         <div className="pb-8">

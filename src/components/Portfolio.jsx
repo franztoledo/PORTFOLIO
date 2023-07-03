@@ -56,7 +56,7 @@ function Portfolio() {
     <section
       name="portfolio"
       id="projects"
-      className=" bg-gradient-to-b from-black via-black to-gray-800 w-full px-5 md:px-20 text-white mx-auto"
+      className=" bg-gradient-to-b from-black via-black to-gray-800 w-full px-5 pt-20 md:px-20 text-white mx-auto"
     >
       <div className="flex  items-center text-center p-4 max-w-screen-lg mx-auto">
         <div className="pb-8">
