@@ -1,5 +1,4 @@
 import React from "react";
-import { BsFillPersonLinesFill } from "react-icons/bs";
 import { FaGithub, FaInstagram, FaLinkedin } from "react-icons/fa";
 
 
