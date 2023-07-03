@@ -10,8 +10,9 @@ function Portfolio() {
       title: "SOCIAL MEDIA CLONE",
       des:" Lorem, ipsum dolor sit amet consectetur adipisicing elit",
       img:'',
-      srcgit:'',
-      srcweb:''
+      srcgit:'https://github.com/grovertoledo/portfolio/blob/main/components/Contact/index.tsx',
+      srcweb:'https://github.com/grovertoledo/portfolio/blob/main/components/Contact/index.tsx',
+      style: "shadow-gray-400",
     },
     {
       id:2,
@@ -19,7 +20,8 @@ function Portfolio() {
       des:" Lorem, ipsum dolor sit amet consectetur adipisicing elit",
       img:'',
       srcgit:'',
-      srcweb:''
+      srcweb:'',
+      style: "shadow-yellow-500",
     },
     {
       id:3,
@@ -27,7 +29,8 @@ function Portfolio() {
       des:" Lorem, ipsum dolor sit amet consectetur adipisicing elit",
       img:'',
       srcgit:'',
-      srcweb:''
+      srcweb:'',
+      style: "shadow-sky-400",
     },
     {
       id:4,
@@ -35,7 +38,8 @@ function Portfolio() {
       des:" Lorem, ipsum dolor sit amet consectetur adipisicing elit",
       img:'',
       srcgit:'',
-      srcweb:''
+      srcweb:'',
+      style: "shadow-blue-600",
     },
     {
       id:5,
@@ -43,7 +47,8 @@ function Portfolio() {
       des:" Lorem, ipsum dolor sit amet consectetur adipisicing elit",
       img:'',
       srcgit:'',
-      srcweb:''
+      srcweb:'',
+      style: "shadow-orange-500",
     },
     
   ]
@@ -60,8 +65,8 @@ function Portfolio() {
         </div>
       </div>
       <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 xl:gap-14 p-4 px-1 sm:px-12 ">
-        {projects.map(({ id, title, des, srcgit,srcweb,img})=>(
-          <Card key={id} title={title} des={des} git={srcgit} demo={srcweb} img={img}/>
+        {projects.map(({ id, title, des, srcgit,srcweb,img,style})=>(
+          <Card key={id} title={title} des={des} git={srcgit} demo={srcweb} img={img} shadow={style}/>
         ))}
       </div>
     </section>
