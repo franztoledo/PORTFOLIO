@@ -17,12 +17,12 @@ function Home() {
     >
       
       <div className="max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-7 md:px-20 md:flex-row">
-        <div className="flex flex-col justify-center align-middle w-full h-full gap-4 text-center xl:gap-8">
+        <div className="flex flex-col justify-center align-middle w-full h-full gap-4 text-center xl:gap-8 xl:">
           <div>
             <img
               src={HeroImage}
               alt="my profile"
-              className=" mx-auto w-72 sm:w-1/3 rounded-full object-contain "
+              className=" mx-auto w-72 sm:w-1/3 rounded-full object-contain xl:w-80 "
             />
           </div>
           <h3 className="text-3xl tracking-widest  text-[#8db0b7] text-center">WELCOME TO MI WOLRD</h3>
