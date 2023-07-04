@@ -2,6 +2,7 @@ import React from 'react'
 import HeroImage from '../assets/heroimage2.jpg'
 import { MdOutlineKeyboardArrowRight } from "react-icons/md";
 import { Link } from 'react-scroll';
+import { useTypewriter, Cursor } from 'react-simple-typewriter';
 function Home() {
   return (
     <div
