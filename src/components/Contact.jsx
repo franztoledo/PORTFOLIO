@@ -7,7 +7,7 @@ function Contact() {
   return (
     <div
       name="contact"
-      className="w-full px-5 md:px-20 bg-gradient-to-b from-black to-gray-800 p-4 text-white pt-20"
+      className="w-full px-5 md:px-20 bg-gradient-to-b from-black to-gray-800 p-4 text-white pt-20 z-0"
     >
       <div className="flex flex-col p-4 justify-center max-w-screen-lg mx-auto h-full">
         <div className="pb-8">
@@ -42,7 +42,7 @@ function Contact() {
               type="text"
               name="name"
               placeholder="Enter your name"
-              className="p-2 bg-transparent border-2 rounded-md text-white focus:outline-none"
+              className="p-2 bg-transparent border-2 rounded-md text-white focus:outline-none z-0"
             />
             <input
               type="text"

@@ -28,7 +28,7 @@ function Navbar() {
     },
   ];
   return (
-    <div className='flex justify-between items-center w-full h-20 px-4 text-white bg-black fixed'>
+    <div className='flex justify-between items-center w-full h-20 px-4 text-white bg-black fixed z-20'>
       <div>
         <h1 className='text-4xl font-signature ml-2 tracking-widest leading-3'>Franz</h1>
       </div>
@@ -56,7 +56,7 @@ function Navbar() {
       </ul>
       <div 
         onClick={() => setNav(!nav)} 
-        className="cursor-pointer pr-4 z-10 text-gray-500 md:hidden"
+        className="cursor-pointer pr-4 z-10 text-gray-500 md:hidden "
       >
         {nav ? <FaTimes size={30} /> : <FaBars size={30} />}
       </div>
