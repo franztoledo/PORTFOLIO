@@ -22,7 +22,7 @@ function Home() {
             <img
               src={HeroImage}
               alt="my profile"
-              className=" mx-auto w-72 sm:w-1/3 rounded-full object-contain xl:w-80 "
+              className=" mx-auto w-72 sm:w-1/3 rounded-full object-contain xl:w-80 xl:mb-6 "
             />
           </div>
           <h3 className="text-3xl tracking-widest  text-[#8db0b7] text-center">WELCOME TO MI WOLRD</h3>
