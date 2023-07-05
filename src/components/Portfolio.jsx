@@ -1,14 +1,18 @@
 import React from 'react'
 import { Card } from './Card';
 import PokeVIte from '../assets/PokeVite.jpg'
-
+import WeatherApp from '../assets/WeatherApp.jpg'
+import MovieApp from '../assets/MovieApp.jpg'
+import TodoApp from '../assets/TodoApp.jpg'
+import Form from '../assets/Form.jpg'
+import VideoPlay from '../assets/VideoPlay.png'
 
 function Portfolio() {
   const projects=[
     {
       id:1,
-      title: "SOCIAL MEDIA CLONE",
-      des:" Lorem, ipsum dolor sit amet consectetur adipisicing elit",
+      title: "POKEVITE",
+      des:" A Pokedex make with ReactJS and Vue",
       img: PokeVIte,
       srcgit:'https://github.com/',
       srcweb:'https://github.com/',
@@ -16,38 +20,47 @@ function Portfolio() {
     },
     {
       id:2,
-      title: "SOCIAL MEDIA CLONE",
-      des:" Lorem, ipsum dolor sit amet consectetur adipisicing elit",
-      img: PokeVIte,
-      srcgit:'',
-      srcweb:'',
+      title: "Weather App",
+      des:"A form with logic JavaScript and extra plus Konami",
+      img: WeatherApp,
+      srcgit:'https://github.com/franztoledo/weather-app',
+      srcweb:'https://weather-app-bice-mu.vercel.app/',
       style: "shadow-yellow-500",
     },
     {
       id:3,
-      title: "SOCIAL MEDIA CLONE",
-      des:" Lorem, ipsum dolor sit amet consectetur adipisicing elit",
-      img: PokeVIte,
-      srcgit:'',
-      srcweb:'',
-      style: "shadow-sky-400",
+      title: "Form and Konami",
+      des:"A form with logic JavaScript and extra plus Konami",
+      img: Form,
+      srcgit:'https://github.com/franztoledo/FORM-JS',
+      srcweb:'https://form-js-xi.vercel.app/',
+      style: "shadow-yellow-500",
     },
     {
       id:4,
-      title: "SOCIAL MEDIA CLONE",
+      title: "MovieAPI",
       des:" Lorem, ipsum dolor sit amet consectetur adipisicing elit",
-      img: PokeVIte,
-      srcgit:'',
-      srcweb:'',
-      style: "shadow-blue-600",
+      img: MovieApp,
+      srcgit:'https://github.com/franztoledo/CURSO-API-PRACTICO',
+      srcweb:'https://franztoledo.github.io/CURSO-API-PRACTICO/',
+      style: "shadow-sky-400",
     },
     {
       id:5,
-      title: "SOCIAL MEDIA CLONE",
+      title: "Play JavaScript",
       des:" Lorem, ipsum dolor sit amet consectetur adipisicing elit",
-      img: PokeVIte,
-      srcgit:'',
-      srcweb:'',
+      img: VideoPlay,
+      srcgit:'https://github.com/franztoledo/Taller-Practico-JS-VideoJuego',
+      srcweb:'https://franztoledo.github.io/Taller-Practico-JS-VideoJuego/',
+      style: "shadow-blue-600",
+    },
+    {
+      id:6,
+      title: "TodoApp",
+      des:" Lorem, ipsum dolor sit amet consectetur adipisicing elit",
+      img: TodoApp,
+      srcgit:'https://github.com/franztoledo/curso-react-intro',
+      srcweb:'https://franztoledo.github.io/curso-react-intro/',
       style: "shadow-orange-500",
     },
     
