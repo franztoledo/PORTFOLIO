@@ -12,7 +12,7 @@ function Portfolio() {
     {
       id:1,
       title: "POKEVITE",
-      des:" A Pokedex make with ReactJS and Vue",
+      des:" A Pokedex with search engine, filter and favorites. Made with React and Vite.",
       img: PokeVIte,
       srcgit:'https://github.com/',
       srcweb:'https://github.com/',
@@ -21,7 +21,7 @@ function Portfolio() {
     {
       id:2,
       title: "Weather App",
-      des:"A form with logic JavaScript and extra plus Konami",
+      des:"A single weather app that displays the weather forecast for the next 5 days on a given location.",
       img: WeatherApp,
       srcgit:'https://github.com/franztoledo/weather-app',
       srcweb:'https://weather-app-bice-mu.vercel.app/',
@@ -30,7 +30,7 @@ function Portfolio() {
     {
       id:3,
       title: "Form and Konami",
-      des:"A form with logic JavaScript and extra plus Konami",
+      des:"A form that requests information of a different type implementing my own Konami code.",
       img: Form,
       srcgit:'https://github.com/franztoledo/FORM-JS',
       srcweb:'https://form-js-xi.vercel.app/',
@@ -39,7 +39,7 @@ function Portfolio() {
     {
       id:4,
       title: "MovieAPI",
-      des:" Lorem, ipsum dolor sit amet consectetur adipisicing elit",
+      des:"A mobile movie website made with DOM manipulation and REST APIs",
       img: MovieApp,
       srcgit:'https://github.com/franztoledo/CURSO-API-PRACTICO',
       srcweb:'https://franztoledo.github.io/CURSO-API-PRACTICO/',
@@ -48,7 +48,7 @@ function Portfolio() {
     {
       id:5,
       title: "Play JavaScript",
-      des:" Lorem, ipsum dolor sit amet consectetur adipisicing elit",
+      des:"A video game made with canva and basic knowledge of JavaScrip",
       img: VideoPlay,
       srcgit:'https://github.com/franztoledo/Taller-Practico-JS-VideoJuego',
       srcweb:'https://franztoledo.github.io/Taller-Practico-JS-VideoJuego/',
@@ -56,8 +56,8 @@ function Portfolio() {
     },
     {
       id:6,
-      title: "TodoApp",
-      des:" Lorem, ipsum dolor sit amet consectetur adipisicing elit",
+      title: "TODO App",
+      des:"A TODO App made with ReactJS, with all the functionalities and basic knowledge of React.",
       img: TodoApp,
       srcgit:'https://github.com/franztoledo/curso-react-intro',
       srcweb:'https://franztoledo.github.io/curso-react-intro/',
