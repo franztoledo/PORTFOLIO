@@ -14,12 +14,7 @@ function About() {
         </div>
 
         <p className="text-xl mt-20">
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eius,
-          deserunt illum mollitia officiis qui exercitationem perferendis neque
-          quasi a recusandae necessitatibus tempora iusto! Blanditiis error
-          iste, totam fugiat recusandae rerum laborum perferendis molestiae
-          aperiam asperiores nemo. Magni dolor maxime debitis vitae, eaque hic
-          ab mollitia voluptatibus, a nostrum eveniet laborum!
+        My future is Tech. I have discovered new skills and reinforced the ones I had, such as creativity. I am a Fronted Development using technologies like HTML, CSS, JS, ReactJS, Tailwind and SCSS. And my goal is to continue to learn more about this IT world.
         </p>
 
       </div>
